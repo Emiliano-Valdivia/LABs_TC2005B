@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html data-theme="dark">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Laboratorio 5</title>
+   <!---- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css">-->
+   <link rel="stylesheet" href="./bulma.css">
+</head>
+<body>
+    <h1>
+        Laboratorio 4 Incluyendo Bulma
+    </h1>
+
+    <p>Función 1: Entrada: un número pedido con un prompt. Salida: Una tabla con los números del 1 al número dado con sus cuadrados y cubos. Utiliza document.write para producir la salida
+       <br><br> <button class="button is-link">Haz clic</button>
+    </p>
+    <hr>
+
+    <p>Función 2: Entrada: Usando un prompt se pide el resultado de la suma de 2 números generados de manera aleatoria. Salida: La página debe indicar si el resultado fue correcto o incorrecto, y el tiempo que tardó el usuario en escribir la respuesta.
+        <br><br> <button class="button is-info">Haz clic</button>
+    </p>
+     <hr>
+
+    <p>Función 3: Parámetros: Un arreglo de números. Regresa: La cantidad de números negativos en el arreglo, la cantidad de 0's, y la cantidad de valores mayores a 0 en el arreglo.
+        <br> Ejemplo con el siguiente arreglo: [6 -2 1 0 8 0 0 -4 6 -7 9]
+        <br><br> <button class="button is-primary">Haz clic</button>
+     </p>
+     <hr>
+
+     <p>Función 4: Parámetros: Un arreglo de arreglos de números. Regresa: Un arreglo con los promedios de cada uno de los renglones de la matriz.
+        <br> Ejemplo con la matriz: [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+        <br><br> <button class="button is-warning">Haz clic</button>
+     </p>
+     <hr>
+
+     <p>Función 5: Parámetros: Un número. Regresa: El número con sus dígitos en orden inverso.
+        <br> Ejemplo con el número 123456789
+        <br><br> <button class="button is-info">Haz clic</button>
+     </p>
+     <hr>
+
+     <p>Función 6 Torres de Hanoi: Este ejercicio ayuda a entender la recursividad y resuelve el juego de las torres de hanoi, describiendo los movimientos que deben realizarse para una cierta cantidad de discos.
+        <br> Se incluyen 2 botones, uno para resolver el problema y otro para aumentar la cantidad de discos, por defecto se asumen 3 discos
+        <br><br> <button class="button is-success">Resolver</button>
+        <br><br> <button class="button is-danger">Cambiar discos</button>
+     </p>
+     <hr>
+
+    <ol id="Preguntas">
+        <li><strong>¿Qué diferencias y semejanzas hay entre Java y JavaScript?</strong>
+            <ul id="Diferencias">
+                <li>Los lenguajes se parecen en que son lenguajes de alto nivel orientados a objetos</li>
+                <li>Los lenguajes también tienen una sintaxis bastante parecida, pues ambos se parecen en cierta medida a C, pero fuera de esto, son bastante diferentes</li>
+                <li>JavaScript es un lenguaje interpretado, mientras que Java se compila</li>
+                <li>Los programas de Java se ejecutan en la máquina virtual de Java, mientras que los de JavaScript se ejecutan en el navegador web</li>
+            </ul>
+        </li>
+        <li><strong>¿Qué métodos tiene el objeto Date?</strong>
+            <ul>
+                <li>getFullYear(): Este método regresa el año como un número de 4 digitos</li>
+                <li>getMonth(): Este método regresa el mes como un numero del 0 al 11</li>
+                <li>getMinutes(): Este método regresa el minuto de la hora establecida como un número del 0 al 59</li>
+                <li>getMiliseconds(): Este método regresa el milisegundo del segundo establecido como un número del 0 al 999</li>
+                <li>getTime(): Este método regresa los milisegundos transcurridos desde el 1 de enero de 1970</li>
+            </ul>
+        </li>
+        <li><strong>¿Qué métodos tienen los arreglos?</strong>
+            <ul>
+                <li>push(): Introduce información a un arreglo</li>
+                <li>unshift(): Introduce información al principio del arreglo</li>
+                <li>pop(): Saca un elemento del final del arreglo</li>
+                <li>find(): Busca un elemento en específico en un arreglo y regresa true o false, dependiendo de si este se encuentra o no</li>
+                <li>findIndex(): Similar a find(), pero regresa el indice del primer elemento que coincida con el solicitado</li>
+            </ul>
+        </li>
+        <li><strong>¿Cómo se declara una variable con alcance local dentro de una función?</strong> Se puede utilizar la palabra var, ya que esta indica que el alcance de la variable que se declare, será el de la función más cercana.</li>
+        <li><strong>¿Qué implicaciones tiene utilizar variables globales dentro de funciones?</strong> Utilizar variables globales en lugar de locales puede hacer que se generen conflictos entre funciones si es que usan la misma variable para diferentes propósitos. Esto es especialmente común en códigos que involucran a varias personas.</li>
+    </ol>
+    <br><br>
+    <p>Material Design es un lenguaje de diseño creado por Google, con el que buscan crear diseños funcionales tanto para la web y aplicaciones móviles que emulen el estilo de la tinta y el papel.</p>
+    <br><br>
+</body>
+<footer>
+    <ol id="Referencias">
+        <li>https://www.hackaboss.com/blog/diferencias-javascript-java</li>
+        <li>https://www.w3schools.com/js/js_date_methods.asp</li>
+        <li>https://www.freecodecamp.org/news/the-complete-javascript-handbook-f26b2c71719c/#arrays</li>
+        <li>https://www.geeksforgeeks.org/why-to-avoid-global-variables-in-javascript/</li>
+    </ol>
+</footer>
+
+<script src="./Funciones_para_Lab4.js"></script>
+
+</html>
