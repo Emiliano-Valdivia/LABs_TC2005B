@@ -1,0 +1,2 @@
+Tu nombre: Emi
+Tu edad: 20
