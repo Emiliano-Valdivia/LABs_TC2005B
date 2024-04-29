@@ -1,0 +1,20 @@
+{
+  "name": "labclase",
+  "version": "1.0.0",
+  "description": "Laboratorio MVC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "LABs_TC2005B"
+  },
+  "author": "Emiliano Valdivia",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2"
+  }
+}
